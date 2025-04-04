@@ -7,32 +7,62 @@
 //Teste larissa
 
 int main() {
-    char pontosturistico[100];
     char cidade[50];
-    float PIB;
-    int populacao;
-    float area;
+    float area,PIB;
+    int populacao,pontosturistico;
 
-    printf("Insira o nome dá Cidade!\n");
-    scanf("%s", cidade);
+    char cidade1[50];
+    float area1,PIB1;
+    int populacao1,pontosturistico1;
+     
+    printf("Carta 1\n");
+    printf("Insira o nome dá Cidade:\n");
+    scanf(" %[^\n]", cidade);
     
-    printf("Digite a quantidade da população\n");
+    printf("Digite a quantidade da população:\n");
     scanf("%d", &populacao);
 
-    printf("Digite a área!\n");
-    scanf("%2.f", area);
+    printf("Digite a área:\n");
+    scanf("%f", &area);
 
-    printf("digite o PIB!\n");
-    scanf("%2.f", &PIB);
+    printf("digite o PIB:\n");
+    scanf("%f", &PIB);
 
-    printf("Digite os pontos turisticos!\n");
+    printf("Digite os pontos turisticos:\n");
     scanf("%d", &pontosturistico);
+    printf("\n");
+    
 
-    printf("Nome da cidade: %s\n");
-    prinf("População: %d\n");
-    printf("Àrea: %2.f\n");
-    printf("PIB: %2.f\n");
-    printf("Pontos turísticos: %d\n");
+    printf("Carta 2\n");
+    printf("Insira o nome dá Cidade:\n");
+    scanf(" %[^\n]", cidade1);
+    
+    printf("Digite a quantidade da população:\n");
+    scanf("%d", &populacao1);
+
+    printf("Digite a área:\n");
+    scanf("%f", &area1);
+
+    printf("digite o PIB:\n");
+    scanf("%f", &PIB1);
+
+    printf("Digite os pontos turisticos:\n");
+    scanf("%d", &pontosturistico1);
+    printf("\n");
+
+    printf("Carta 1\n");
+    printf("Nome da cidade: %s\n",cidade);
+    printf("População: %d\n",populacao);
+    printf("Àrea: %.2f km²\n",area);
+    printf("PIB: %.2f bilhões de reais\n",PIB);
+    printf("Pontos turísticos: %d\n\n",pontosturistico);
+    
+    printf("Carta 2\n");
+    printf("Nome da cidade: %s\n",cidade1);
+    printf("População: %d\n",populacao1);
+    printf("Àrea: %.2f km²\n",area1);
+    printf("PIB: %.2f bilhões de reais\n",PIB1);
+    printf("Pontos turísticos: %d\n",pontosturistico1);
 
     
 
